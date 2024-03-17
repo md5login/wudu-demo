@@ -1,0 +1,8 @@
+.star {
+    color: gold;
+}
+
+people-item-component {
+    display: flex;
+    height: var(--heigth);
+}

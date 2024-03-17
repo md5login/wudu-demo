@@ -1,0 +1,5 @@
+<people-item>
+    <name wudu-text>{{ data.name | toUpper }} and {{ data.height }}</name>
+    <input type="text" wudu-value="data.name" />
+    <div class="name-renderer" wudu-component="nameRenderer" wudu-cdata="item:data"></div>
+</people-item>
